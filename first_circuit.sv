@@ -8,10 +8,3 @@ module firstCircuit(	// first_circuit.mlir:1:1
   assign result = a + b;	// first_circuit.mlir:2:12, :3:5
 endmodule
 
-module {
-  hw.module @firstCircuit(in %a : i8, in %b : i8, out result : i8) {
-    %0 = comb.add %a, %b : i8
-    hw.output %0 : i8
-  }
-}
-
