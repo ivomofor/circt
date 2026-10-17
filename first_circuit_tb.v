@@ -1,4 +1,4 @@
-module first_circuit_tb;
+ module first_circuit_tb;
     reg  [7:0] a;
     reg  [7:0] b;
     wire [7:0] result;
