@@ -23,5 +23,5 @@ iverilog -g2012 -o simulation design.sv testbench.sv
 vvp simulation
 Replace the example filenames with the actual generated SystemVerilog and testbench paths.
 
-##Status
+## Status
 This is an educational project for exploring hardware IRs and compiler-to-HDL workflows.
