@@ -19,8 +19,8 @@ The local toolchain used during development included firtool 1.160.0 and a CIRCT
 
 ## Simulation workflow
 The exact design and testbench filenames depend on the files in the repository. A typical Icarus Verilog simulation stage is:
-## iverilog -g2012 -o simulation design.sv testbench.sv
-## vvp simulation
+iverilog -g2012 -o simulation design.sv testbench.sv
+vvp simulation
 Replace the example filenames with the actual generated SystemVerilog and testbench paths.
 
 #Status
